@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App del Clima</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="weather-card">
+      <div class="weather-header">
+        <p class="eyebrow">Pronóstico en tiempo real</p>
+        <h1>App del Clima</h1>
+        <p class="subtitle">
+          Busca una ciudad y, si quieres, agrega el país. Ejemplo:
+          <strong>Santiago, Chile</strong>
+        </p>
+      </div>
+
+      <form id="form" class="search-form">
+        <div class="input-group">
+          <input
+            id="ciudad"
+            class="search-input"
+            type="text"
+            placeholder="Ej: Santiago, Chile"
+            autocomplete="off"
+          />
+          <button class="search-button" type="submit">Buscar</button>
+        </div>
+      </form>
+
+      <div id="message"></div>
+      <div id="resultado"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
