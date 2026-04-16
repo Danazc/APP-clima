@@ -39,7 +39,7 @@ Incluye una interfaz moderna, validación de entradas, manejo de errores y visua
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tuusuario/weather-app.git
+git clone https://github.com/Danazc/APP-clima.git
 cd weather-app
 ```
 
